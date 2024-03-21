@@ -1,0 +1,44 @@
+{
+  "name": "inventorequia",
+  "version": "1.0.0",
+  "description": "Ethereum smart contract and library for efficient ERC20 and Ether balance checks.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "sideEffects": false,
+  "author": "PearlineDavis",
+  "license": "MIT",
+  "homepage": "https://github.com/AleneMcCullough/inventorequia.git",
+  "bugs": {
+    "url": "https://github.com/AleneMcCullough/inventorequia.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AleneMcCullough/inventorequia.git"
+  },
+  "keywords": [
+    "dolor",
+    "sit",
+    "erc20",
+    "balance",
+    "minima"
+  ],
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "@types/web3": "^1.2.2",
+    "chai": "4.2.0",
+    "dotenv": "6.0.0",
+    "eth-gas-reporter": "0.1.12",
+    "openzeppelin-solidity": "1.12.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "ethers": "^5.4.2",
+    "truffle": "^5.4.1",
+    "web3": "^1.4.0"
+  },
+  "files": [
+    "lib",
+    "abis",
+    "contracts"
+  ]
+}
